@@ -1,0 +1,55 @@
+.item {
+  display: flex;
+  margin: 1rem 0;
+  background-color: #575757;
+  padding: 1rem;
+}
+
+.item header {
+  margin: 0 10px;
+}
+
+.details {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.quantity span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.itemprice {
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actions button {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: 0.5rem;
+  padding: 0.15rem 1rem;
+  color: white;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #4b4b4b;
+  color: white;
+}
+
+.productImage {
+  margin: 10px;
+}
